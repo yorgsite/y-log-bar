@@ -5,17 +5,21 @@ Useful to monitor long time scripts.
 
 ![log exemple](./rm-img/log-exemple.png)
 
-Install :
+<hr/>
+
+##### Install :
 
 ```
 npm install y-log-bar
 ```
 
-Import :
+##### Import :
 
 ```javascript
 const logbar	= require('y-log-bar').get();
 ```
+
+<hr/>
 
 ## <a name="_use"></a> Use
 
@@ -35,7 +39,22 @@ logbar.hide();
 ```
 
 
-The bar display will update every time you use **logbar.show** or **logbar.log** (when visible).
+The bar display will update every time you use **logbar.show** or **logbar.log** when visible.
+
+<hr/>
+
+## <a name="tg_menu"></a> Menu
+
++ [Use](#_use)
++ [Areas](#_areas)
++ [Change Values](#_change)
+	+ [title](#_change_title)
+	+ [percent](#_change_percent)
+	+ [time](#_change_time)
++ [Look and feel](#_lkfeel)
+	+ [title](#_lkfeel_title)
+	+ [percent value](#_lkfeel_percval)
+	+ [progress bar](#_lkfeel_percbar)
 
 <hr/>
 
@@ -117,7 +136,7 @@ logbar.perc.front=[255,0,0];
 logbar.perc.back=[0,200,150];
 ```
 
-##### <a name="_lkfeel_percbarl"></a> percent bar
+##### <a name="_lkfeel_percbar"></a> percent bar
 
 Area 4.
 + front colors (gradient)
