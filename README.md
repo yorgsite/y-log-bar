@@ -7,13 +7,13 @@ Useful to monitor long time scripts.
 
 <hr/>
 
-##### Install :
+#### Install :
 
 ```
 npm install y-log-bar
 ```
 
-##### Import :
+#### Import :
 
 ```javascript
 const logbar	= require('y-log-bar').get();
@@ -104,7 +104,7 @@ logbar.time.start=0;
 
 Customise logbar display. NB: All colors must be a rgb value.
 
-##### <a name="_lkfeel_title"></a> title bar
+#### <a name="_lkfeel_title"></a> title bar
 
 Area 1 and 2.
 + front colors (gradient)
@@ -124,7 +124,7 @@ logbar.title.fill='_';
 ```
 
 
-##### <a name="_lkfeel_percval"></a> percent value
+#### <a name="_lkfeel_percval"></a> percent value
 
 Area 3.
 + front color
@@ -136,7 +136,7 @@ logbar.perc.front=[255,0,0];
 logbar.perc.back=[0,200,150];
 ```
 
-##### <a name="_lkfeel_percbar"></a> percent bar
+#### <a name="_lkfeel_percbar"></a> percent bar
 
 Area 4.
 + front colors (gradient)
