@@ -69,26 +69,22 @@ The bar display will update every time you use **logbar.show** or **logbar.log**
 
 ### <a name="_change"></a> Change Values
 
-#### <a name="_change_title"></a> title
-
++ #### <a name="_change_title"></a> title
 Area 1.
 ```javascript
 // must be a string
 logbar.title.value=' some text';
 ```
 
-#### <a name="_change_percent"></a>percent
-
++ #### <a name="_change_percent"></a>percent
 Area 3 and 4.
 ```javascript
 // must be a number between 0 and 1
 logbar.perc.value=0.7;
 ```
 
-#### <a name="_change_time"></a>time
-
++ #### <a name="_change_time"></a>time
 Area 2. Track elapsed time.
-
 ```javascript
 // default = false
 logbar.time.visible=true;
@@ -104,56 +100,53 @@ logbar.time.start=0;
 
 Customise logbar display. NB: All colors must be a rgb value.
 
-#### <a name="_lkfeel_title"></a> title bar
-
++ #### <a name="_lkfeel_title"></a> title bar
 Area 1 and 2.
-+ front colors (gradient)
+ + front colors (gradient)
 ```javascript
 logbar.title.front.from=[255,0,0]; //from left
 logbar.title.front.to=[255,255,0]; //to right
 ```
-+ back colors (gradient)
+ + back colors (gradient)
 ```javascript
 logbar.title.back.from=[0,100,200]; //from left
 logbar.title.back.to=[0,50,100]; //to right
 ```
-+ character for for unused space
+ + character for for unused space
 ```javascript
 // default = ' '
-logbar.title.fill='_';
+logbar.title.fill="=";
 ```
 
 
-#### <a name="_lkfeel_percval"></a> percent value
-
++ #### <a name="_lkfeel_percval"></a> percent value
 Area 3.
-+ front color
+ + front color
 ```javascript
 logbar.perc.front=[255,0,0];
 ```
-+ back color
+ + back color
 ```javascript
 logbar.perc.back=[0,200,150];
 ```
 
-#### <a name="_lkfeel_percbar"></a> percent bar
-
++ #### <a name="_lkfeel_percbar"></a> percent bar
 Area 4.
-+ front colors (gradient)
+ + front colors (gradient)
 ```javascript
 logbar.bar.front.from=[255,0,0]; //from left
 logbar.bar.front.to=[255,255,0]; //to right
 ```
-+ back colors (gradient)
+ + back colors (gradient)
 ```javascript
 logbar.bar.back.from=[0,100,200]; //from left
 logbar.bar.back.to=[0,50,100]; //to right
 ```
-+ character for filled bar
+ + character for filled bar
 ```javascript
 logbar.bar.chIn='X';
 ```
-+ character for empty bar
+ + character for empty bar
 ```javascript
 logbar.bar.chOut='-';
 ```
