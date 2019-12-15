@@ -150,3 +150,5 @@ Customise logbar display. NB: All colors must be a rgb value.
 	```javascript
 	logbar.bar.chOut='-';
 	```
+
+See **[exemple.js](exemples/exemple.js)**.
