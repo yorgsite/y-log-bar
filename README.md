@@ -69,21 +69,21 @@ The bar display will update every time you use **logbar.show** or **logbar.log**
 
 ### <a name="_change"></a> Change Values
 
-+ #### <a name="_change_title"></a> title
++ #### <a name="_change_title"></a>title.
 	Area 1.
 	```javascript
 	// must be a string
 	logbar.title.value=' some text';
 	```
 
-+ #### <a name="_change_percent"></a>percent
++ #### <a name="_change_percent"></a>percent.
 	Area 3 and 4.
 	```javascript
 	// must be a number between 0 and 1
 	logbar.perc.value=0.7;
 	```
 
-+ #### <a name="_change_time"></a>time
++ #### <a name="_change_time"></a>time.
 	Area 2. Show elapsed time.
 	```javascript
 	// default = false
@@ -96,11 +96,11 @@ The bar display will update every time you use **logbar.show** or **logbar.log**
 
 <hr/>
 
-### <a name="_lkfeel"></a> Look and feel
+### <a name="_lkfeel"></a> Look and feel.
 
 Customise logbar display. NB: All colors must be a rgb value.
 
-+ #### <a name="_lkfeel_title"></a> title bar
++ #### <a name="_lkfeel_title"></a> title bar.
 	Area 1 and 2.
 	+ front colors (gradient)
 	```javascript
@@ -119,7 +119,7 @@ Customise logbar display. NB: All colors must be a rgb value.
 	```
 
 
-+ #### <a name="_lkfeel_percval"></a> percent value
++ #### <a name="_lkfeel_percval"></a> percent value.
 	Area 3.
 	+ front color
 	```javascript
@@ -130,7 +130,7 @@ Customise logbar display. NB: All colors must be a rgb value.
 	logbar.perc.back=[0,200,150];
 	```
 
-+ #### <a name="_lkfeel_percbar"></a> percent bar
++ #### <a name="_lkfeel_percbar"></a> percent bar.
 	Area 4.
 	+ front colors (gradient)
 	```javascript

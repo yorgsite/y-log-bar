@@ -1,11 +1,13 @@
 
 
-const styl = require('node-styl-rgb').c16m;
+const stylrgb = require('node-styl-rgb');
+// const styl = require('node-styl-rgb').c16m;
 
-var _last_bar;
+var _last_bar,styl;
 var YLogBar=function(){
 	// var scope=this; C:\__perso\web_aspire\YLogBar.js
 	_last_bar=this;
+	styl=stylrgb.c16m;
 	var visible=0;
 	var dirty=0;
 	var bridge={};
@@ -13,6 +15,12 @@ var YLogBar=function(){
 	var drawlog=new DrawLog(bridge);
 
 	var ioref={
+		c16m:{
+			get:()=>{styl=stylrgb.c16m;return this;}
+		},
+		c256:{
+			get:()=>{styl=stylrgb.c256;return this;}
+		},
 		size:{
 			_dirty:'all',
 			get:()=>drawer.size,

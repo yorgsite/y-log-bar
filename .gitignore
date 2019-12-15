@@ -1,5 +1,5 @@
 node_modules
 publish_tools.js
-*.bat
-publish_git.bat
-publish_npm.bat
+pub_git.bat
+pub_npm_version.bat
+pub_npm.bat
