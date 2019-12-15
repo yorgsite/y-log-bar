@@ -1,6 +1,6 @@
 {
   "name": "y-log-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A nodejs console progress bar for heavy scripts.",
   "main": "YLogBar.js",
   "scripts": {
