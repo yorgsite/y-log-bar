@@ -1,2 +1,5 @@
 node_modules
+publish_tools.js
 *.bat
+publish_git.bat
+publish_npm.bat
