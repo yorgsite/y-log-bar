@@ -1,3 +1,4 @@
+//const logbar	= require('y-log-bar').get();
 const logbar	= require('../YLogBar.js').get();
 
 logbar.time.visible=true;

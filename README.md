@@ -55,6 +55,7 @@ The bar display will update every time you use **logbar.show** or **logbar.log**
 	+ [title](#_lkfeel_title)
 	+ [percent value](#_lkfeel_percval)
 	+ [progress bar](#_lkfeel_percbar)
++ [Exemple](exemples/exemple.js)
 
 <hr/>
 
@@ -151,4 +152,4 @@ Customise logbar display. NB: All colors must be a rgb value.
 	logbar.bar.chOut='-';
 	```
 
-See **[exemple.js](exemples/exemple.js)**.
+See exemple **[exemple.js](exemples/exemple.js)**.
